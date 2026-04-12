@@ -328,9 +328,10 @@ FEATURES ↓
 
 */
 
-
 #features {
     position: relative;
+    padding: 80px 20px;
+    text-align: center;
 }
 
 #features .row__narrow {
@@ -339,8 +340,69 @@ FEATURES ↓
     align-items: center;
 }
 
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
 
-/* 
+/*headings*/
+.section-label {
+    color: #6415ff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.section-title {
+   font-size:36px;
+   font-weight: 700;
+   margin-bottom: 16px;
+   color: #243e63;
+}
+
+.section-description {
+    max-width: 600px;
+    margin: 0 auto 50px;
+    color: #7c8ba1;
+    font-size: 16px;
+}
+
+/*Grid*/
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+}
+
+/*Feature Card*/
+.feature-card {
+    display: Flex;
+    align-items: flex-start;
+    gap: 16px;
+    text-align: left;
+}
+
+.iron-circle {
+    width: 48px;
+    height: 48px;
+    background-color: #e2e8f0;
+    border-radius: 50%;
+}
+
+/*Text*/
+.feature-text h4 {
+    margin: 0 0 6px;
+    font-size: 20px;
+    color: #243e63;
+}
+
+.feature-text p {
+    margin: 0;
+    color: #7c8ba1;
+    font-size: 14px;
+}
 
 QUALITY WORK ↓
 
