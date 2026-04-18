@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root {
+      --primary: #6b46c1;
+      --text-main: #1a202c;
+      --text-muted: #4a5568;
+      --bg-light: #f7fafc;
+      --bg-soft: #edf2f7;
+      --border-soft: #e2e8f0;
+      --dark: #2d3748;
+}
+
 * {
       box-sizing: border-box;
       margin: 0;
@@ -7,8 +17,8 @@
     }
 
     body {
-      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemsFONT, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      Color: var(--text-main);
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFONT, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text-main);
       line-height: 1.6;
       background: #ffffff
    }
@@ -415,6 +425,11 @@
       gap: 30px;
     }
 
+    .price-card.featured {
+      border: 2px solid var(--primary);
+      box-shadow: 0 20px 40px rgba(100, 21, 255, 0.15);
+    }
+
     .price-card {
       background: #ffffff;
       border-radius: 12px;
@@ -424,6 +439,11 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
+    }
+
+    .price-card .btn-primary {
+      width: 100%;
+      margin-top: auto;
     }
 
     .price-plan {
@@ -570,6 +590,18 @@
       padding: 60px 0 30px;
     }
 
+    .footer-column-title {
+      color: #ffffff;
+    }
+
+    .footer-links a {
+      color: #cbd5f5;
+    }
+
+    .footer-links a:hover {
+      color: #ffffff;
+    }
+
     .footer-top {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -602,6 +634,10 @@
     }
 
     .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
       border-top: 1px solid #2d3748;
       padding-top: 20px;
       font-size: 12px;
@@ -615,7 +651,7 @@
 
     .footer-brand {
       font-weight: 700;
-      color: purple;
+      color: #ffffff;
     }
 
     @media (max-width: 900px) {
