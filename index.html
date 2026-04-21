@@ -1,396 +1,444 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Treact Landing</title>
+
+  <link rel="stylesheet" href="style-new.css" />
+  <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
 </head>
-
 <body>
-    <section id="landing" class="hero">
-        <nav>
-           
-<nav class="site-header">
-  <div class="container nav">
+  <!-- HERO / NAV -->
+  <section id="landing" class="hero">
+    <header class="site-header">
+      <div class="container nav">
+        <div class="nav-left">
+          <div class="nav-logo-mark">
+            <img
+              src="assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+              alt="Treact Logo"
+            />
+          </div>
+          <span class="nav-logo-text">Treact</span>
+        </div>
 
-    <div class="nav-left">
-      <div class="nav-logo-mark">
-        <img src="assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Treact Logo">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+
+        <nav class="nav-links-wrapper">
+          <div class="nav-links">
+            <a href="#landing">About</a>
+            <a href="#blog">Blog</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#login">Login</a>
+          </div>
+          <div class="nav-auth">
+            <button class="btn-primary">Sign Up</button>
+          </div>
+        </nav>
       </div>
-      <span>Treact</span>
-    </div>
+    </header>
 
-    <div class="nav-links">
-      <a href="#">About</a>
-      <a href="#">Blog</a>
-      <a href="#">Pricing</a>
-      <a href="#">Contact Us</a>
-      <a href="#">Login</a>
-    </div>
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h1 class="hero-title">
+          Beautiful React Templates <span>for you.</span>
+        </h1>
+        <p class="hero-text">
+          Our templates are easy to setup, understand and customize. Fully
+          modular components with a variety of pages and components.
+        </p>
 
-    <div class="nav-auth">
-      <button class="btn-primary">Sign Up</button>
-    </div>
+        <form class="hero-form">
+          <input
+            class="hero-input"
+            type="email"
+            placeholder="Your email address"
+          />
+          <button type="submit" class="btn-primary">Get Started</button>
+        </form>
 
-  </div>
-</nav>
-
-          
-<header>
-  <div class="container hero-inner">
-
-    <div class="hero-left">
-      <h1 class="hero-title">
-        Beautiful React Templates <span>for you.</span>
-      </h1>
-
-      <p class="hero-text">
-        Our templates are easy to setup, understand and customize.
-        Fully modular components with a variety of pages and components.
-      </p>
-
-      <div class="hero-form">
-        <input class="hero-input" type="email" placeholder="Your email address">
-        <button class="btn-primary">Get Started</button>
+        <div class="hero-customers-label">OUR TRUSTED CUSTOMERS</div>
+        <div class="hero-customers-bar">
+          <img
+            src="assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"
+            alt="Customer Logos"
+          />
+        </div>
       </div>
 
-      <div class="hero-customers-label">OUR TRUSTED CUSTOMERS</div>
-      <div class="hero-customers-bar">
-        <img src="assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="Customer Logo">
+      <div class="hero-right">
+        <img src="assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="Hero Illustration"/>
       </div>
     </div>
+  </section>
 
-    <div class="hero-right">
-      <img
-        src="assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
-        alt="Header Image"
-      >
-    </div>
+  <main>
+    <!-- FEATURES -->
+    <section class="features">
+      <div class="container">
+        <div class="features-header">
+          <div class="section-label">FEATURES</div>
+          <h2 class="section-title">We Have Amazing Service.</h2>
+          <p class="section-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
 
-  </div>
-</header>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="icon-circle">
+              <img src="assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="Secure"/>
+            </div>
+            <div class="feature-text">
+              <h4>Secure</h4>
+              <p>
+                Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis
+                nostrud.
+              </p>
+            </div>
+          </div>
 
+          <div class="feature-card">
+            <div class="icon-circle">
+              <img
+                src="assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg"
+                alt="24/7 Support"
+              />
+            </div>
+            <div class="feature-text">
+              <h4>24/7 Support</h4>
+              <p>
+                Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis
+                nostrud.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-circle">
+              <img
+                src="assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg"
+                alt="Customizable"
+              />
+            </div>
+            <div class="feature-text">
+              <h4>Customizable</h4>
+              <p>
+                Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis
+                nostrud.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-circle">
+              <img src="assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="Reliable"/>
+            </div>
+            <div class="feature-text">
+              <h4>Reliable</h4>
+              <p>
+                Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis
+                nostrud.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-circle">
+              <img src="assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="Fast"/>
+            </div>
+            <div class="feature-text">
+              <h4>Fast</h4>
+              <p>
+                Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis
+                nostrud.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-circle">
+              <img src="assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="Easy"/>
+            </div>
+            <div class="feature-text">
+              <h4>Easy</h4>
+              <p>
+                Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis
+                nostrud.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <main>
-       
 
-  <!-- FEATURES -->
-  <section class="features">
-    <div class="container">
-      <div class="features-header">
-        <div class="section-label">FEATURES</div>
-        <h2 class="section-title">We Have Amazing Service.</h2>
-        <p class="section-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+    <!-- QUALITY -->
+    <section class="quality">
+      <div class="container quality-inner">
+        <div class="quality-text">
+          <div class="section-label">QUALITY WORK</div>
+          <h2 class="section-title">
+            Designed &amp; Developed by
+            <span class="text-primary">Professionals.</span>
+          </h2>
+          <p class="section-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam
+            cupiditate commodi qui excepturi laborum adipisci officiis, corporis
+            possimus. Reiciendis?
+          </p>
+          <button class="btn-primary">Learn More</button>
+        </div>
+        <div class="quality-image">
+          <img src="assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="Quality Illustration"/>
+        </div>
       </div>
+    </section>
 
-      <div class="features-grid">
-
-        <!-- Secure -->
-         <div class="feature-card">
-          <div class="icon-circle">
-            <img src="assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="secure logo">
-          </div>
-          <div class="feature-text">
-            <h4>Secure</h4>
-            <p>Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-          </div>
+    <!-- STEPS -->
+    <section class="steps" id="steps">
+      <div class="container steps-inner">
+        <div class="steps-illustration">
+          <img src="assets/hero-screenshot-2.241aac1fbc66db29d873.png" alt="Steps Illustration"/>
         </div>
 
-        <!-- 24/7 Support -->
-        <div class="feature-card">
-          <div class="icon-circle">
-            <img src="assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="24/7 support">
+        <div class="steps-content">
+          <div class="steps-header">
+            <div class="section-label">STEPS</div>
+            <h2 class="section-title">Easy to Get Started.</h2>
+            <p class="section-description"></p>
           </div>
-          <div class="feature-text">
-            <h4>24/7 Support</h4>
-            <p>Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-          </div>
-        </div>
 
-        <!-- Customizable -->
-        <div class="feature-card">
-          <div class="icon-circle">
-            <img src="assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="Customizable">
-          </div>
-          <div class="feature-text">
-            <h4>Customizable</h4>
-            <p>Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-          </div>
-        </div>
+          <div class="steps-list">
+            <div class="step-item">
+              <div class="step-number">01</div>
+              <div class="step-text">
+                <h4>Register</h4>
+                <p>Create an account with us using Google or Facebook.</p>
+              </div>
+            </div>
 
-        <!-- Reliable -->
-        <div class="feature-card">
-          <div class="icon-circle">
-            <img src="assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="Reliable">
-          </div>
-          <div class="feature-text">
-            <h4>Reliable</h4>
-            <p>Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-          </div>
-        </div>
+            <div class="step-item">
+              <div class="step-number">02</div>
+              <div class="step-text">
+                <h4>Download</h4>
+                <p>
+                  Browse and download the template that you like from the
+                  marketplace.
+                </p>
+              </div>
+            </div>
 
-        <!-- Fast -->
-        <div class="feature-card">
-          <div class="icon-circle">
-            <img src="assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="Fast">
-          </div>
-          <div class="feature-text">
-            <h4>Fast</h4>
-            <p>Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-          </div>
-        </div>
-
-        <!-- Easy -->
-        <div class="feature-card">
-          <div class="icon-circle">
-            <img src="assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="Easy">
-          </div>
-          <div class="feature-text">
-            <h4>Easy</h4>
-            <p>Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+            <div class="step-item">
+              <div class="step-number">03</div>
+              <div class="step-text">
+                <h4>Run</h4>
+                <p>
+                  Follow the instructions to setup and customize the template to
+                  your needs.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- VALUES -->
+    <section id="values" class="values">
+      <div class="container values-inner">
+        <div class="values-main">
+          <div class="section-label">VALUES</div>
+          <h2 class="section-title">
+            We Always Abide by Our Principles.
+          </h2>
+          <p class="section-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+
+          <div class="values-grid">
+            <div class="value-card">
+              <div class="value-icon value-icon-green">
+                <i class="fas fa-dollar-sign"></i>
+              </div>
+              <div>
+                <h4>Affordable</h4>
+                <p>
+                  We promise to offer you the best rate we can – at par with the
+                  industry standard.
+                </p>
+              </div>
+            </div>
+
+            <div class="value-card">
+              <div class="value-icon value-icon-blue">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <div>
+                <h4>Professionalism</h4>
+                <p>
+                  We assure you that our templates are designed and created by
+                  professional designers.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn-outline">Learn More</button>
+        </div>
+
+        <div class="values-illustration">
+          <img src="assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="Values Illustration"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <div class="pricing-header">
+          <div class="section-label">PRICING</div>
+          <h2 class="section-title">Reasonable &amp; Flexible Plans.</h2>
+          <p class="section-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="price-card price-personal">
+            <div class="price-plan">PERSONAL</div>
+            <div class="price-amount">$17.99</div>
+            <div class="price-period">MONTHLY</div>
+            <div class="price-tagline">For Individuals</div>
+            <ul class="price-features">
+              <li>30 Templates</li>
+              <li>7 Landing Pages</li>
+              <li>12 Internal Pages</li>
+              <li>Basic Assistance</li>
+            </ul>
+            <button class="btn-primary">Buy Now</button>
+          </div>
+
+          <div class="price-card price-business">
+            <div class="price-plan">BUSINESS</div>
+            <div class="price-amount">$37.99</div>
+            <div class="price-period">MONTHLY</div>
+            <div class="price-tagline">For Small Businesses</div>
+            <ul class="price-features">
+              <li>60 Templates</li>
+              <li>15 Landing Pages</li>
+              <li>22 Internal Pages</li>
+              <li>Priority Assistance</li>
+            </ul>
+            <button class="btn-primary">Buy Now</button>
+          </div>
+
+          <div class="price-card price-enterprise">
+            <div class="price-plan">ENTERPRISE</div>
+            <div class="price-amount">$57.99</div>
+            <div class="price-period">MONTHLY</div>
+            <div class="price-tagline">For Large Companies</div>
+            <ul class="price-features">
+              <li>90 Templates</li>
+              <li>27 Landing Pages</li>
+              <li>37 Internal Pages</li>
+              <li>Personal Assistance</li>
+            </ul>
+            <button class="btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section class="testimonials">
+  <div class="container testimonials-inner">
+
+    <!-- LEFT: Illustration -->
+    <div class="testimonials-illustration">
+      <img src="assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="Happy Customers"/>
     </div>
-  </section>
 
-        </section>
-
-         <section class="quality">
-    <div class="container quality-inner">
-      <div class="quality-text">
-        <div class="section-label">QUALITY WORK</div>
-        <h2 class="section-title">
-          Designed &amp; Developed by <span class="text-primary">Profressionals.</span>
-        </h2>
-        <p class="section-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam cupiditate commodi qui excepturi laborum adipisci officiis, corporis possimus. Reiciendis?
-        </p>
-        <button class="btn-primary">Learn More</button>
-      </div>
-      <div class="quality-image">
-       <img src="assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"> 
-    </div>
-  </section>
-
-        <section class="steps" id="steps">
-            <div class="container steps-inner">
-              <div class="steps-illustration">
-                <img src="assets/hero-screenshot-2.241aac1fbc66db29d873.png" alt="Steps Illustration">
-             </div>
-      <div>     
-        <div class="steps-header">
-        <div class="section-label">STEPS</div>
-        <h2 class="section-title">Easy to Get Started.</h2>
-        <p class="section-description">
-          <!-- optional supporting text, left blank to match your copy -->
-        </p>
-      </div>
-      <div class="steps-list">
-        <div class="step-item">
-          <div class="step-number">01</div>
-          <div class="step-text">
-            <h4>Register</h4>
-            <p>Create an account with us using Google or Facebook.</p>
-          </div>
-        </div>
-        <div class="step-item">
-          <div class="step-number">02</div>
-          <div class="step-text">
-            <h4>Download</h4>
-            <p>Browse and Download the template that you like from the marketplace.</p>
-          </div>
-        </div>
-        <div class="step-item">
-          <div class="step-number">03</div>
-          <div class="step-text">
-            <h4>Run</h4>
-            <p>Follow the instructions to setup and customize the template to your needs.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<section id="values">
-  <div class="container values-inner">
-
-    <!-- LEFT COLUMN -->
-    <div class="values-main">
-      <div class="section-label">VALUES</div>
-
+    <!-- RIGHT: Content -->
+    <div class="testimonials-content">
+      <div class="section-label">TESTIMONIALS</div>
       <h2 class="section-title">
-        We Always Abide by Our Principles.
+        Our Clients <span class="text-primary">Love Us.</span>
       </h2>
-
       <p class="section-description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua enim ad minim veniam.
       </p>
 
-      <div class="values-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
 
-        <div class="value-card">
-          <div class="value-icon value-icon-green">
-            <i class="fas fa-dollar-sign"></i>
+        <div class="testimonial-title">Amazing User Experience</div>
+
+        <p class="testimonial-body">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco.
+        </p>
+
+        <div class="testimonial-footer">
+          <div class="testimonial-author">
+            <img src="assets/photo-1494790108377-be9c29b29330.avif" alt="Charlotte Hale"/>
+            <div>
+              <div class="testimonial-author-name">Charlotte Hale</div>
+              <div class="testimonial-author-role">Director, Delos Inc.</div>
+            </div>
           </div>
-          <div>
-            <h4>Affordable</h4>
-            <p>
-              We promise to offer you the best rate we can – at par with the industry standard.
-            </p>
+
+          <div class="testimonial-nav">
+            <button class="testimonial-arrow">
+              <i class="fas fa-arrow-left"></i>
+            </button>
+            <button class="testimonial-arrow">
+              <i class="fas fa-arrow-right"></i>
+            </button>
           </div>
         </div>
-
-        <div class="value-card">
-          <div class="value-icon value-icon-blue">
-            <i class="fas fa-briefcase"></i>
-          </div>
-          <div>
-            <h4>Professionalism</h4>
-            <p>
-              We assure you that our templates are designed and created by professional designers.
-            </p>
-          </div>
-        </div>
-
       </div>
 
-      <button class="btn-outline">Learn More</button>
     </div>
-
-    <!-- RIGHT COLUMN -->
-    <div class="values-illustration">
-      <img src="assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
-           alt="Values Illustration">
-    </div>
-
   </div>
 </section>
-  </section>
 
-  <section id="pricing" class="pricing">
-            <div class="container">
- <div class="pricing-header">
-        <div class="section-label">pricing</div>
-        <h2 class="section-title">Reasonable &amp; Flexible Plans.</h2>
-        <p class="section-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
 
-      <div class="pricing-grid">
-        <!-- PERSONAL -->
-        <div class="price-card price-personal">
-          <div class="price-plan">PERSONAL</div>
-          <div class="price-amount">$17.99</div>
-          <div class="price-period">MONTHLY</div>
-          <div class="price-tagline">For Individuals</div>
-          <ul class="price-features">
-            <li>30 Templates</li>
-            <li>7 Landing Pages</li>
-            <li>12 Internal Pages</li>
-            <li>Basic Assistance</li>
-          </ul>
-          <button class="btn-primary">buy now</button>
+    <!-- CTA -->
+    <section class="cta" id="start">
+      <div class="container cta-inner">
+        <div class="cta-text">
+          Developers all over the world are happily using Treact.
         </div>
-
-        <!-- BUSINESS -->
-         <div class="price-card price-business">
-          <div class="price-plan">BUSINESS</div>
-          <div class="price-amount">$37.99</div>
-          <div class="price-period">MONTHLY</div>
-          <div class="price-tagline">For Small Businesses</div>
-          <ul class="price-features">
-            <li>60 Templates</li>
-            <li>15 Landing Pages</li>
-            <li>22 Internal Pages</li>
-            <li>Priority Assistance</li>
-          </ul>
-          <button class="btn-primary">buy now</button>
+        <div class="cta-actions">
+          <button class="btn-cta-light">Get Started</button>
+          <button class="btn-cta-outline">Contact Us</button>
         </div>
-
-        <!-- ENTERPRISE -->
-        <div class="price-card price-enterprise">
-          <div class="price-plan">ENTERPRISE</div>
-          <div class="price-amount">$57.99</div>
-          <div class="price-period">MONTHLY</div>
-          <div class="price-tagline">For Large Companies</div>
-          <ul class="price-features">
-            <li>90 Templates</li>
-            <li>27 Landing Pages</li>
-            <li>37 Internal Pages</li>
-            <li>Personal Assistance</li>
-          </ul>
-          <button class="btn-primary">buy now</button>
-        </div>
-      
-    </div>
-  </section>
-
-        </section>
-   <section class="testimonials">
-    <div class="container testimonials-inner">
-      <div class="testimonials-header">
-        <div class="section-label">testimonials</div>
-        <h2 class="section-title">Our Clients Love Us.</h2>
-        <img src="C:\Users\jb_ka\OneDrive\Desktop\FES-HTML-CSS-Final-Project\assets\photo-1494790108377-be9c29b29330.avif" alt="love">
-        <p class="section-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.
-        </p>
-        
       </div>
-      <div class="testimonial-card">
-        <div class="testimonial-title">Amazing User Experience</div>
-        <p class="testimonial-body">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-        </p>
-       <div class="testimonial-footer">
+    </section>
+  </main>
 
-  <div class="testimonial-author">
-    <img src="assets/photo-1494790108377-be9c29b29330.avif" alt="Charlotte Hale">
-    
-    <div>
-      <div class="testimonial-author-name">Charlotte Hale</div>
-      <div class="testimonial-author-role">Director, Delos Inc.</div>
-    </div>
-  </div>
-
-  <div class="testimonial-nav">
-    <button class="testimonial-arrow">
-      <i class="fas fa-arrow-left"></i>
-    </button>
-    <button class="testimonial-arrow">
-      <i class="fas fa-arrow-right"></i>
-    </button>
-  </div>
-
-</div>
-
-    </div>
-  </section>
-
-        </section>
-        <section class="cta" id="start">
-            <div class="container cta-inner">
-            <div class="cta-text">Developers all over the world are happily using Treact.</div>
-      <div class="cta-actions">
-        <button class="btn-cta-light">Get Started</button>
-        <button class="btn-cta-outline">Contact Us</button>
-      </div>
-    </div>
-  </section>
-
-    </main>
- <footer>
+  <!-- FOOTER -->
+  <footer class="footer">
     <div class="container">
       <div class="footer-top">
-
         <div>
           <div class="footer-column-title">MAIN</div>
           <ul class="footer-links">
@@ -399,63 +447,64 @@
             <li><a href="assets/support.html">Support</a></li>
             <li><a href="assets/about-us.html">About Us</a></li>
           </ul>
-       </div>
+        </div>
 
-       <div>
-         <div class="footer-column-title">PRODUCT</div>
-         <ul class="footer-links">
-           <li><a href="assets/log-in.html">Log In</a></li>
-           <li><a href="assets/personal.html">Personal</a></li>
-           <li><a href="assets/business.html">Business</a></li>
-           <li><a href="assets/team.html">Team</a></li>
-          </ul>
-       </div>
-
-       <div>
-         <div class="footer-column-title">PRESS</div>
-         <ul class="footer-links">
-           <li><a href="assets/logos.html">Logos</a></li>
-           <li><a href="assets/events.html">Events</a></li>
-           <li><a href="assets/stories.html">Stories</a></li>
-           <li><a href="assets/office.html">Office</a></li>
+        <div>
+          <div class="footer-column-title">PRODUCT</div>
+          <ul class="footer-links">
+            <li><a href="assets/log-in.html">Log In</a></li>
+            <li><a href="assets/personal.html">Personal</a></li>
+            <li><a href="assets/business.html">Business</a></li>
+            <li><a href="assets/team.html">Team</a></li>
           </ul>
         </div>
-        
+
         <div>
-         <div class="footer-column-title">TEAM</div>
+          <div class="footer-column-title">PRESS</div>
           <ul class="footer-links">
-           <li><a href="assets/career.html">Career</a></li>
-           <li><a href="assets/founders.html">Founders</a></li>
-           <li><a href="assets/culture.html">Culture</a></li>
-           <li><a href="assets/onboarding.html">Onboarding</a></li>
-         </ul>
-       </div>
+            <li><a href="assets/logos.html">Logos</a></li>
+            <li><a href="assets/events.html">Events</a></li>
+            <li><a href="assets/stories.html">Stories</a></li>
+            <li><a href="assets/office.html">Office</a></li>
+          </ul>
+        </div>
 
-       <div>
-        <div class="footer-column-title">Legal</div>
-        <ul class="footer-links">
-          <li><a href="assets/gdpr.html">GDPR</a></li>
-          <li><a href="assets/privacy-policy.html">Privacy Policy</a></li>
-          <li><a href="assets/Terms of service.html">Terms of Service</a></li>
-          <li><a href="assets/disclaimer.html">Disclaimer</a></li>
-        </ul>
+        <div>
+          <div class="footer-column-title">TEAM</div>
+          <ul class="footer-links">
+            <li><a href="assets/career.html">Career</a></li>
+            <li><a href="assets/founders.html">Founders</a></li>
+            <li><a href="assets/culture.html">Culture</a></li>
+            <li><a href="assets/onboarding.html">Onboarding</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-column-title">LEGAL</div>
+          <ul class="footer-links">
+            <li><a href="assets/gdpr.html">GDPR</a></li>
+            <li><a href="assets/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="assets/Terms of service.html">Terms of Service</a></li>
+            <li><a href="assets/disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </div>
       </div>
-       
-        
-    <div class="footer-bottom">
-     <div class="footer-brand">Treact Inc.</div>
 
-     <div class="footer-copy">© 2018 Treact Inc. All rights reserved.
-     </div>
+      <div class="footer-bottom">
+        <div class="footer-brand">Treact Inc.</div>
+        <div class="footer-copy">
+          © 2018 Treact Inc. All rights reserved.
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-     <div class="footer-social">
-       <a href="#"><i class="fab fa-facebook-f"></i></a>
-       <a href="#"><i class="fab fa-twitter"></i></a>
-       <a href="#"><i class="fab fa-linkedin-in"></i></a>
-       <a href="#"><i class="fab fa-instagram"></i></a>
-     </div>
-   </div>
- </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
